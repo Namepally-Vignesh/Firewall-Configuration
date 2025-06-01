@@ -1,8 +1,7 @@
 # *Windows Firewall Configuration Documentation*
 
 ## *Objective*
-This repository documents the process of configuring and testing basic firewall rules on Windows using Windows Firewall. 
-The goal was to block inbound traffic on a specific port and verify the effectiveness of the firewall rules.
+To block inbound traffic on a specific port and verify the effectiveness of the firewall rules.
 
 ## *Tools Used*
 - Windows Firewall (Windows built-in firewall management tool)
