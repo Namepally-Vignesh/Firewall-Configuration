@@ -35,7 +35,13 @@ To block inbound traffic on a specific port and verify the effectiveness of the 
 - Find the **Block Telnet** rule.
 - Right-click the rule and select **Delete** to remove it and restore original firewall state.
 
-### Summary of How Windows Firewall Filters Traffic
+### 6. Add a Rule to Block Inbound Traffic on Port 22 (SSH)
+- Same process as step 3, but:
+- Port: 22
+- Action: "Allow the connection"
+- Name: "Allow SSH"
+
+### 📖Summary of How Windows Firewall Filters Traffic
 Firewalls, including Windows Firewall, serve as a security barrier between a trusted internal network and untrusted external networks (such as the internet). They filter traffic based on a set of predefined rules, which can be customized according to the user's needs. Here are the key aspects of how Windows Firewall filters traffic:
 
 **1. Rule-Based Filtering:**
